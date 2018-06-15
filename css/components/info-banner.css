@@ -1,0 +1,32 @@
+.info-banner .col-left{
+  border-bottom: 1px solid #68c4d8;
+}
+
+.info-banner .section-title{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.info-banner .section-subtitle{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media(max-width:991px){
+  .info-banner .col-left{
+    border-bottom: 0;
+  }
+
+  .info-banner .pr-0{
+    padding-right: 15px !important;
+  }
+}
+
+@media(max-width:767px){
+  .info-banner .section-title{
+    font-size: 30px;
+    line-height: 30px;
+  }
+}

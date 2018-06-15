@@ -1,0 +1,54 @@
+/* Secondary Menu */
+
+.secondary-menu{
+  margin-top: -150px;
+}
+
+.secondary-menu .col-sm{
+  padding: 0;
+}
+
+.secondary-menu .box{
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  min-height: 180px;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.secondary-menu .box:after{
+  content: '>';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background: rgba(0,0,0,0.15);
+  font-size: 21px;
+  line-height: 40px;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+
+.secondary-menu .box:hover{
+  color: #fff;
+}
+
+.secondary-menu .title{
+  font-weight: 700;
+}
+
+@media(max-width:1200px){
+  .secondary-menu .title{
+    font-size: 26px;
+  }
+}
+
+@media(max-width:550px){
+  .secondary-menu .title{
+    font-size: 21px;
+  }
+}

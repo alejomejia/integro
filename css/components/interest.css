@@ -1,0 +1,9 @@
+.interest .info-icon{
+  min-height: 115px;
+}
+
+.interest .info-title{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}

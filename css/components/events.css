@@ -1,0 +1,144 @@
+.events .col-left{
+  border-bottom: 1px solid #68c4d8;
+}
+
+.events .article-header{
+  position: relative;
+  min-height: 200px;
+}
+
+.events .main-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.events .main-date{
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.events .main-date .day{
+  font-weight: 900;
+  display: block;
+  font-size: 30px;
+  border-left: 1px solid #68c4d8;
+}
+
+.events .main-date .month{
+  font-weight: 400;
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.events .box{
+  padding: 70px 30px 30px 30px;
+  min-height: 170px;
+  position: relative;
+  -webkit-transition: background .5s ease;
+  -moz-transition: background .5s ease;
+  -ms-transition: background .5s ease;
+  -o-transition: background .5s ease;
+  transition: background .5s ease;
+}
+
+.events .box.red{
+  background: #961a2a;
+}
+
+.events article:first-child:hover .box.red{
+  background: #c83548;
+}
+
+.events .box.pink{
+  background: #C188AD;
+}
+
+.events article:last-child:hover .box.pink{
+  background: #d5aac6;
+}
+
+.events .main-subtitle{
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.events .secondary-title{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.events .secondary-date{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.events .secondary-date .day{
+  color: #fff;
+  font-weight: 900;
+  display: block;
+  font-size: 30px;
+  border-left: 5px solid #fff;
+  padding-left: 15px;
+  line-height: 30px;
+}
+
+.events .secondary-date .month{
+  color: #fff;
+  font-weight: 400;
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: right;
+}
+
+
+
+
+@media(max-width:991px){
+
+  .events .pr-0{
+    padding-right: 15px !important;
+  }
+
+  .events .col-left{
+    border-bottom: 0;
+  }
+
+  .events .col-right{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .events .img-box img{
+    width: 100%;
+  }
+
+  .events .article-header{
+    min-height: 150px;
+  }
+
+}
+
+@media(max-width:767px){
+
+  .events .main-title{
+      font-size: 30px;
+      line-height: 30px;
+  }
+  .events .article-header{
+    min-height: 100px;
+  }
+}
